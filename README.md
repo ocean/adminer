@@ -1,8 +1,8 @@
 # Adminer docker container image
 
-[![Build Status](https://travis-ci.org/wodby/adminer.svg?branch=master)](https://travis-ci.org/wodby/adminer)
-[![Docker Pulls](https://img.shields.io/docker/pulls/wodby/adminer.svg)](https://hub.docker.com/r/wodby/adminer)
-[![Docker Stars](https://img.shields.io/docker/stars/wodby/adminer.svg)](https://hub.docker.com/r/wodby/adminer)
+[![Build Status](https://travis-ci.org/ocean/adminer.svg?branch=master)](https://travis-ci.org/ocean/adminer)
+[![Docker Pulls](https://img.shields.io/docker/pulls/ocean/adminer.svg)](https://hub.docker.com/r/ocean/adminer)
+[![Docker Stars](https://img.shields.io/docker/stars/ocean/adminer.svg)](https://hub.docker.com/r/ocean/adminer)
 [![Wodby Slack](http://slack.wodby.com/badge.svg)](http://slack.wodby.com)
 
 ## Environment Variables
