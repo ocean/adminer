@@ -2,7 +2,7 @@
 
 VERSION ?= 4.6
 
-REPO = ocean/adminer
+REPO = oceanic/adminer
 NAME = adminer-4.6
 
 .PHONY: build test push shell run start stop logs clean release
