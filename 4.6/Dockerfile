@@ -16,7 +16,6 @@ RUN apk add --update --no-cache \
         php7-pdo \
         php7-pdo_mysql \
         php7-mysqli && \
-
     sed -i \
         -e "s/^expose_php.*/expose_php = Off/" \
         -e "s/^;date.timezone.*/date.timezone = UTC/" \
@@ -30,9 +29,7 @@ RUN apk add --update --no-cache \
         -e "s/^display_startup_errors.*/display_startup_errors = On/" \
         -e "s/^track_errors.*/track_errors = On/" \
         /etc/php7/php.ini && \
-
     echo "error_log = \"/proc/self/fd/2\"" | tee -a /etc/php7/php.ini && \
-
     mkdir -p /var/www/html && \
     curl -s -o /var/www/html/adminer.php -L ${ADMINER_URL} && \
     curl -s -o /var/www/html/adminer.css -L ${ADMINER_THEME_URL}
